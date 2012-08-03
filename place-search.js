@@ -1,5 +1,3 @@
-var assert = new require("assert");
-
 var config = require("./config.js");
 
 var GooglePlaces = require("googleplaces");

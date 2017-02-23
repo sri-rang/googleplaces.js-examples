@@ -11,6 +11,6 @@ parameters = {
   location:[-33.8670522, 151.1957362],
   types:"doctor"
 };
-googlePlaces.placeSearch(parameters, function (response) {
+googlePlaces.placeSearch(parameters, function (error, response) {
   console.log(response.results);
 });

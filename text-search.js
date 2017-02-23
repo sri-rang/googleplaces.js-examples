@@ -10,6 +10,6 @@ var parameters;
 parameters = {
   query:"restaurants in dublin"
 };
-googlePlaces.textSearch(parameters, function (response) {
+googlePlaces.textSearch(parameters, function (error, response) {
   console.log(response.results);
 });
